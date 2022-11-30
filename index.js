@@ -17,16 +17,18 @@ const getEndpoint = async function (endpoint) {
 // Promises cheat sheet: https://devhints.io/promise
 
 async function main() {
-
-    
     // Opgave 1a - Hent 'endpoint' med 'getEndpoint()' og .then til at udskrive resultatet i konsollen
     // ...
 
     // Opgave 1b - Hent 'badEndpoint' med 'getEndpoint()' og .catch (sammen med .then) til at fange fejl og udskrive dem i konsollen
     
+
+
     // Opgave 2a - Brug getEndpoint() med async/await til at udskrive resultatet i konsollen
 
     // Opgave 2b - Tilføj try/catch til at fange fejl og udskrive dem i konsollen
+
+    
 
     // Opgave 3a - Request 10 ting med et for loop og udskriv dem i konsollen
 
