@@ -6,12 +6,12 @@ setTimeout(function callback() {
 }, 1000);
 
 
-// setTimeoutAsync is a function that returns a promise
-// const setTimeoutAsync = function (timeout) {
-//     return new Promise(function (resolve, reject) {
-//         setTimeout(resolve, timeout);
-//     });
-// }
+// setTimeoutAsync konvertere setTimeout til en promise, så vi kan bruge .then og .catch og async/await
+const setTimeoutAsync = function (timeout) {
+    return new Promise(function (resolve, reject) {
+        setTimeout(resolve, timeout);
+    });
+}
 
 // async function main() {
 //     // wait 1 second
